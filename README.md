@@ -9,7 +9,7 @@
 ## How to use this image
 
 ```
-$ docker run -d -P -p 5601:5601 -p 9200:9200 -p 5044:5044 -p 8080:8080 --name elk custom-elk-input-file
+$ docker run -d -P -p 5601:5601 --name elk custom-elk-input-file
 ```
 
 ### You should then have:
